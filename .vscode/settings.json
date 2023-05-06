@@ -1,0 +1,43 @@
+{
+    "files.exclude": {
+        // 📙 sub-libs
+        "apps/*-e2e": true,
+
+        // 🏗️ build
+        "**/**/webpack.config.*": true,
+        "**/**/vite.config.*": true,
+        "dist": true,
+
+        // ⚒️ tooling
+        "tools": true,
+
+        // ⚙️ config
+        "**/**/tsconfig*": true,
+        "**/**/*code-workspace": true,
+        "**/**/project.json": true,
+        "**/**/nx.json": true,
+
+        // 🧼 linters & styles
+        "**/**/.prettierrc": true,
+        "**/**/*.eslintrc.*": true,
+
+        // 📝 readmes
+        // "**/**/README.md": true,
+
+        // 🗑️ trash
+        "**/**/jest.config.*": true,
+        "**/**/jest.preset.*": true,
+        "node_modules": true,
+        "pnpm-lock.yaml": true,
+        ".prettierignore": true,
+        ".eslintignore": true,
+        ".gitignore": true,
+        ".git": true,
+        ".vscode": true,
+
+        // 🧪 tests
+        // "**/**/test": true,
+        // "**/**/tests": true,
+        // "**/**/*.spec.*": true,
+    }
+}
