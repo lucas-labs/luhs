@@ -1,0 +1,31 @@
+@mixin gradient {
+        background: radial-gradient(
+            ellipse at 9% 36%,
+            rgba(0, 255, 186, 0.78) 0%,
+            rgba(250, 255, 34, 0) 22.55%
+        ),
+        radial-gradient(ellipse at 6% 51%, #5062ff 0%, rgba(255, 255, 255, 0) 57.95%),
+        radial-gradient(
+            ellipse at 0% 0%,
+            #e4ff63 0%,
+            rgba(0, 241, 255, 0.22) 0%,
+            rgba(182, 255, 119, 0) 61%
+        ),
+        conic-gradient(
+            from 45deg at 27% 56%,
+            rgba(255, 255, 255, 0.22) 1%,
+            rgba(153, 163, 255, 0.34) 48%
+        ),
+        linear-gradient(170.89deg, rgba(255, 212, 255, 0.87) 28%, #fff7ff 48%, #ffffff 79%),
+        linear-gradient(
+            180deg,
+            rgba(0, 255, 230, 0.29) 12.82%,
+            rgba(51, 51, 51, 0) 71.95945945945947%,
+            #ffffff 72%
+        );
+    background-blend-mode: color-dodge, hue, multiply, soft-light, hard-light, normal;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+    background-position: 0% 0%, 0em 0em, 0% 0%, 100% 100%, 0% 0%, 0 0;
+    background-size: 71.38% 100%, 32.44% 76.99%, 47.48% 68.14%, 100% 100%, 100% 78.76%,
+        auto auto;
+}

@@ -1,6 +1,7 @@
 /// <reference types="vitest" />
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
+import { resolve } from 'path';
 import viteTsConfigPaths from 'vite-tsconfig-paths';
 
 export default defineConfig({
@@ -22,6 +23,12 @@ export default defineConfig({
             root: '../../',
         }),
     ],
+
+    resolve: {
+        alias: {
+            '=@luhs/design-system': resolve(__dirname, '../../libs/design-system/scss'),
+        },
+    },
 
     // Uncomment this if you are using workers.
     // worker: {

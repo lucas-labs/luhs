@@ -8,13 +8,11 @@
         "serve:dashboard": "nx serve dashboard",
         "serve:fe": "nx serve dashboard",
         "serve:be": "nx serve luhs",
-
         "build": "nx run-many -c production --target=build --projects=luhs,dashboard --output-style=stream",
         "build:luhs": "nx build luhs",
         "build:dashboard": "nx build dashboard",
         "build:fe": "nx build dashboard",
         "build:be": "nx build luhs",
-        
         "format": "pnpm prettier --write \"{apps,libs}/**/*.{js,jsx,ts,tsx,css,scss,md,html}\"",
         "format:list": "pnpm prettier --list-different \"{apps,libs}/**/*.{js,jsx,ts,tsx,css,scss,md,html}\""
     },
